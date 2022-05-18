@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width:100%;
+    height:55vh;
+    background-color: #129799;
+    display:flex;
+    flex-direction: column;
+    color: #f7f7f7;
+}
+
+.menu1{
+    padding:2vh;
+}
+
+.container-menu1{
+    display:flex;
+    justify-content: space-evenly;
+    font-weight:500;
+    font-size:1rem;
+}
+
+.container-list1:hover{
+    cursor:pointer;
+    font-weight:700;
+}
+
+header div{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    color: #f7f7f7;
+    font-size:2.4rem;
+    margin-top:2vh;
+}
+
+header img{
+    width:40vw;
+    height:40vh;
+}
+
+.container-menu2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size:1.2rem;
+    font-weight:600;
+    margin-top:2vh;
+}
+
+main{
+    width:100%;
+    background-color: #FFA185;
+    height:175vh;
+}
+
+.boxText{
+    width:80%;
+    height:15vh;
+    position:relative;
+    left:5vw;
+    top:6vh;
+}
+
+h2{
+    width:25vw;
+    font-size:1.4rem;
+    font-weight:700;
+    color:#f7f7f7;
+}
+
+.primeiroParagrafo{
+    position:absolute;
+    top:7vh;
+    font-size:1.2rem;
+    font-weight:600;
+}
+
+.primeiraimg{
+    width:40vw;
+    margin-left:5vw;
+    margin-top:15vh;
+}
+
+.segundaimg{
+    width:40vw;
+    height:56vh;
+    margin-left:5vw;
+}
+
+.terceiraimg{
+    width:40vw;
+    height:56vh;
+    margin-left:5vw;
+    margin-top:8vh;
+}
+
+.quartaimg{
+    width:40vw;
+    height:56vh;
+    margin-left:5vw;
+    margin-top:8vh;
+}
+
+.paragrafoFinal{
+    position:relative;
+    width:15vw;
+    top:7vh;
+    left:40vw;
+    text-align:center;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #129799;
+    height:15vh;
+    color:#f7f7f7;
+}
+
+.midiasSociais{
+    display: flex;
+}
+
+.insta{
+    width:2vw;
+    margin-top:3vh;
+    margin-left:10vw;
+}
+
+.face{
+    width:2vw;
+    margin-top: 3vh;
+    margin-left:2vw;
+}
+
+.linkedin{
+    width:2vw;
+    margin-top:3vh;
+    margin-left:2vw;
+}
+
+.pinterest{
+    width:2vw;
+    margin-top:3vh;
+    margin-left:2vw;
+}
+
+
+footer ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer li{
+    margin-top:3vh;
+    font-size:1.2rem;
+    font-weight: 550;
+}
